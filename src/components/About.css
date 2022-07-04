@@ -1,0 +1,22 @@
+.about {
+  padding: 0px 40px;
+}
+
+.about :first-child {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 150%;
+
+  color: #f5f5f5;
+
+  margin: 33px 0 5px 0;
+}
+
+.about :last-child {
+  font-size: 10px;
+  line-height: 150%;
+  margin: 0;
+  /* or 15px */
+
+  color: #dcdcdc;
+}

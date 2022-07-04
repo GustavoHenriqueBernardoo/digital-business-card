@@ -1,0 +1,14 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+
+  width: 100%;
+  background: #161619;
+}
+
+.footer > i {
+  font-size: 25px;
+  padding: 0 10px;
+}

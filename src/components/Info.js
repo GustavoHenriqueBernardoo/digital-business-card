@@ -1,10 +1,9 @@
 import React from 'react'
-import profilePic from '../images/sample.png'
-// import profilePic from '../images/me.jpg'
+// import profilePic from '../images/sample.png'
+import profilePic from '../images/me.png'
 import './Info.css'
 
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+
 
 export default function Info() {
   return (
@@ -14,9 +13,9 @@ export default function Info() {
       <h4 className="info-role">Software Engineer</h4>
       <h5 className="info-mail">gustavobernardo@scrimba.com</h5>
       <div className="info-btn">
-        <button>Email</button>
-        <button>Linkedin</button>
+        <button className='btn-email'> <i class="ri-mail-line" style={{ widh: '10px' }} ></i>Email</button>
+        <button className='btn-linkedin'> <i class="ri-linkedin-box-fill" style={{ width: '10px' }}></i>Linkedin</button>
       </div>
-    </div>
+    </div >
   )
 }

@@ -6,7 +6,7 @@
 
 .info-pic {
   width: 317px;
-  height: 317px;
+  height: 350px;
 }
 
 .info-name {
@@ -49,7 +49,11 @@
   gap: 8px;
 }
 
-.info-btn :first-child {
+.info-btn .btn-email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: 115px;
   height: 34px;
 
@@ -65,16 +69,12 @@
   border-radius: 6px;
 }
 
-.info-btn :last-child {
+.info-btn .btn-linkedin {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
 
-  gap: 8px;
-
-  /* justify-self: center;
-  align-self: center; */
+  gap: 15px;
 
   width: 115px;
   height: 34px;
@@ -86,4 +86,12 @@
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
   border: none;
   border-radius: 6px;
+}
+
+.ri-mail-line {
+  font-size: 25px;
+}
+
+.ri-linkedin-box-fill {
+  font-size: 25px;
 }
